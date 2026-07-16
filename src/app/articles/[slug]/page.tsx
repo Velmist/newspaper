@@ -51,7 +51,7 @@ export default function ArticleReadPage({ params }: ArticleDynamicRouteProps) {
       */}
       <span className="block w-full my-12 h-[300px] md:h-[500px] relative rounded-sm overflow-hidden bg-neutral-100 border border-neutral-200">
         <Image
-          src={verifiedCoverImageUrl}
+          src={ImageUrl}
           alt={`Portada: ${currentArticleData.headline}`}
           fill
           priority
