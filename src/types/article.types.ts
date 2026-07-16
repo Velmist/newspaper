@@ -11,5 +11,6 @@ export interface ArticleMetadata {
 }
 
 export interface FullArticle extends ArticleMetadata {
-  readonly rawMarkdownBody: string; 
+  readonly rawMarkdownBody: string;
+  readonly htmlContent?: string;
 }
